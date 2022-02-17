@@ -21,6 +21,7 @@ public class FlipCoin {
                 tail++;
             }
         }
+		
         int headper = (head*100)/n;
         int tailper = (tail*100)/n;
         System.out.println("Head Percentage :"+headper+"%");
